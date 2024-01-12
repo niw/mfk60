@@ -28,6 +28,23 @@ if not footprint_positioning_only:
         if drawing.GetClass() == "PCB_SHAPE":
             plate_board.AddNative(drawing)
 
+def find_jlc_text(board):
+    for drawing in board.GetDrawings():
+        if drawing.GetClass() == "PCB_TEXT":
+            if drawing.GetShownText() == "JLCJLCJLCJLC":
+                return drawing
+    return None
+
+jlc_text = find_jlc_text(board)
+if jlc_text:
+    existing_jlc_text = find_jlc_text(plate_board)
+    if existing_jlc_text is None:
+        if not footprint_positioning_only:
+            plate_board.AddNative(jlc_text)
+    else:
+        position = jlc_text.GetPosition()
+        existing_jlc_text.SetPosition(position)
+
 # Update position and orientation only if there is a footprint that has the same reference.
 # Otherwise, copy the one on board.
 for footprint in board.GetFootprints():

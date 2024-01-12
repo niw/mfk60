@@ -3955,5 +3955,8 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f4ed5be3-c269-4682-9d90-46967e14bf0f))
   (gr_arc (start 137.3 25) (mid 138.714214 25.585786) (end 139.3 27)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ff398ac7-e4d0-4e8b-bff8-59e9d592ca1c))
+  (gr_text "JLCJLCJLCJLC" (at 297.653125 110.725) (layer "F.SilkS") (tstamp 9ad4fe1b-2300-49fd-b083-c81a82d96664)
+    (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
+  )
 
 )

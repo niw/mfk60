@@ -15128,7 +15128,7 @@
   (gr_text "mfk60 rev. 1\n@niw" (at 315.5125 116.678125) (layer "B.SilkS") (tstamp f7040b27-652a-459e-89fb-c486fff5e6ec)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "JLCJLCJLCJLC" (at 297.653125 103.58125) (layer "F.SilkS") (tstamp 4e1f0579-edec-4455-9aaf-1081ae8aee4a)
+  (gr_text "JLCJLCJLCJLC" (at 297.653125 110.725) (layer "F.SilkS") (tstamp 4e1f0579-edec-4455-9aaf-1081ae8aee4a)
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
   )
 
