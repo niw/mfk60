@@ -1,0 +1,72 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5884af6c-f4a4-4f6a-8d5a-73da30f3acf7)
+
+  (paper "A4")
+
+  (title_block
+    (title "mfk60")
+    (date "2024-01-12")
+    (rev "1")
+    (company "@niw")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 21.59 41.91) (size 12.7 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2809b42f-6b40-4f20-9f56-56e870a192dd)
+    (property "Sheetname" "Matrix" (at 21.59 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mfk60_matrix.kicad_sch" (at 21.59 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mfk60"
+        (path "/5884af6c-f4a4-4f6a-8d5a-73da30f3acf7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 68.58 21.59) (size 12.7 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9b5d010c-c128-4221-9df0-679e0e88f90c)
+    (property "Sheetname" "Righ" (at 68.58 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mfk60_right.kicad_sch" (at 68.58 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mfk60"
+        (path "/5884af6c-f4a4-4f6a-8d5a-73da30f3acf7" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 21.59 21.59) (size 12.7 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ee6749c5-8347-4034-bc31-139d7c495021)
+    (property "Sheetname" "Left" (at 21.59 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mfk60_left.kicad_sch" (at 21.59 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mfk60"
+        (path "/5884af6c-f4a4-4f6a-8d5a-73da30f3acf7" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

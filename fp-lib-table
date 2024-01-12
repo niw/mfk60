@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Gateron_Low_Profile")(type "KiCad")(uri "${KIPRJMOD}/Library/Gateron_Low_Profile")(options "")(descr ""))
+  (lib (name "Button_Switch_Additions")(type "KiCad")(uri "${KIPRJMOD}/Library/Button_Switch_Additions")(options "")(descr ""))
+  (lib (name "Connector_Additions")(type "KiCad")(uri "${KIPRJMOD}/Library/Connector_Additions")(options "")(descr ""))
+  (lib (name "MountingHole_Additions")(type "KiCad")(uri "${KIPRJMOD}/Library/MountingHole_Additions")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/.venv/lib/python3.9/site-packages/kikit/resources/kikit.pretty")(options "")(descr ""))
+)

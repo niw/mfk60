@@ -1,0 +1,13 @@
+*-backups/
+*-bak
+*-cache
+*.bak
+*.kicad_prl
+*.lck
+*.zip
+*_panelized.kicad_*
+.DS_Store
+.venv/
+/Orders
+/Production
+~*
