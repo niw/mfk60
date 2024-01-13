@@ -92,7 +92,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/b5286bfd-2547-4e77-b188-b88632113879")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW60" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb49fbe3-4704-4c39-8dde-53c9600cee48)
@@ -139,7 +139,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/d7e498e4-2715-4a1d-b1ff-1b75ea43bddb")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW36" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ebcd6732-b188-4d10-89db-253bd0158402)
@@ -186,7 +186,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/2e680c6a-ea72-440f-a57c-5cf17fe14613")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW42" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e9bf7f2-9523-4234-b660-d925c2362b6b)
@@ -233,7 +233,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/cdd929aa-756d-4b90-9869-ee642a751c56")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW23" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e52d79c-9197-4a83-9403-2d2a96258731)
@@ -280,7 +280,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/3f893b63-ae80-43d8-a356-bfd3dc791034")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW1" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c59d267-8de8-4c79-9cf7-2c207a5a2a90)
@@ -327,7 +327,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/32063f35-f38c-4d8c-8184-0b476f0c87e3")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW8" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca3f6955-52f4-46f1-be7b-755cfeff8e84)
@@ -374,7 +374,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/4814b0dd-acb2-4dd5-9d96-203e5ae95374")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW41" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c77c982-e34c-4d37-8a5e-1f09c41ad522)
@@ -421,7 +421,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/c2c5002f-9313-47d1-9c3a-162a34cc7a1f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW48" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 16c7b9ba-c173-484d-9f10-15ff185afe09)
@@ -470,7 +470,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/6b55207e-b868-4ac8-b423-35223127e41d")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T4" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0fcb69a-0964-436e-8e1e-7c3097a57373)
@@ -501,7 +501,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/2df42347-a5bc-4d3c-873b-581dde4a409f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW49" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b840af9d-00d6-4f2a-82b7-d0742e550feb)
@@ -548,7 +548,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/646f186b-ac5f-4169-b683-49f77df0c29f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW3" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55cd9ce0-a27d-4834-8caf-bad6a36bfc4d)
@@ -595,7 +595,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/9f83f860-eb9c-4674-a4f9-d94f97986496")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW32" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a633af5c-8bf7-4c9e-8fff-df84f877ca00)
@@ -644,7 +644,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/57e21fd3-08b2-4b37-920f-3d292808716e")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T2" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c0ae1bf-9d57-4cd3-8a54-80c19c0763bc)
@@ -675,7 +675,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/4c628624-a134-4cb6-acfb-da8c72d2f7c8")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW37" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bc75c9e7-9b73-46fe-9c34-a3e2e952a7b1)
@@ -722,7 +722,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/d9abf34e-0850-4456-ac77-99868cfbf7f7")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW6" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c34f69a-a9c7-42d3-ad71-ea547d527d18)
@@ -769,7 +769,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/fa1dc2c5-7ed1-42b6-af47-dd32b39be85f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW57" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 084e5780-95dd-42b1-88a9-0eb818777dd6)
@@ -818,7 +818,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/66974201-4677-4b85-af46-26a0a0605c61")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T3" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3df45e5-b837-49d7-bfb4-61824d3968b2)
@@ -849,7 +849,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/f8a0547a-3bf6-4f76-b57f-8932ff03f824")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW25" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63185178-c2e8-4a5a-b62a-2ebdbdcca0e2)
@@ -898,7 +898,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/353d960a-7c7e-4a03-a715-dd481ae0815e")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T7" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3423b9ed-be54-4db5-878c-00d4e0302d42)
@@ -929,7 +929,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/418d0d38-a912-4c55-83af-df5e185db688")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW53" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21e472a0-529e-4019-b594-da0b287dd200)
@@ -976,7 +976,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/bae153f3-d92f-45c7-bb1f-4231f0957e07")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW31" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 466284ff-d2b1-40ab-9c7d-793dae831f15)
@@ -1023,7 +1023,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/689e348e-cb8b-4978-9403-229511fcf618")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW7" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6d9a8323-8eb0-4895-a39f-eb81f5c367e6)
@@ -1070,7 +1070,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/6632dd14-399e-417e-aa63-2986265609f3")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW47" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9ceddaec-31da-4648-86ce-74c825f89988)
@@ -1117,7 +1117,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/b59abf54-dcab-40f2-83e9-4deac9af68f2")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW11" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ed5278c-6836-48ed-9e5f-e95c4137573f)
@@ -1164,7 +1164,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/b77a6f85-d878-4dc1-9f86-e4ede929e681")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW38" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3120db6e-ac25-4c8a-b5a2-3519dd74173d)
@@ -1211,7 +1211,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/4625cabd-dee7-4310-b5bb-898ebe5bb62f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW16" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8ebd0bc9-2fec-40db-b213-9dc4be9571c5)
@@ -1258,7 +1258,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/424c2a72-214c-4bac-a287-f7d30b08c36c")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW10" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 72e3d5cd-09dc-4568-b3ec-8df50b1e7f64)
@@ -1305,7 +1305,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/bfed8e14-6c55-436b-9ca2-0a6e71098532")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW14" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 47650f5c-a427-4360-8fa9-12895472593c)
@@ -1354,7 +1354,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/4e56ca92-4c1a-49c2-9c68-6127176bdd87")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T6" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 62f81a5d-1b2b-473c-92c5-9e3354731de4)
@@ -1385,7 +1385,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/14f18137-3f92-47ee-955a-0b219ff6db84")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW27" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aae4b275-f2ba-408e-bd9e-e71cae62653c)
@@ -1432,7 +1432,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/ca212313-888d-4712-a2f2-26d392231ccf")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW50" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c5e1ee26-d232-4576-9a70-55cefe9295c6)
@@ -1479,7 +1479,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/12376cb8-263e-4d9e-9503-c7026b5192e0")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW20" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7540dd61-14e8-4a40-9b15-ef68cf705d81)
@@ -1526,7 +1526,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/3cb1edfa-9afa-45a1-8e43-079eccfab92f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW33" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 035529b4-6b5b-4863-9160-e2d4044e1af9)
@@ -1575,7 +1575,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/61af5a94-426f-45de-aa47-aebc0952a50a")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T5" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f29e7ad-5088-451d-ac4a-2aaa95663244)
@@ -1606,7 +1606,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/20316db3-da06-4674-8a34-4c0228943fa3")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW51" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40def57e-4eae-49b1-bd37-a7ddd124ea19)
@@ -1653,7 +1653,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/af90e10f-afb4-4907-8a32-56ef7ef269cb")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW61" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b89684b5-c191-4f43-a37f-70616d9a11b0)
@@ -1700,7 +1700,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/c49094e3-778c-4d0f-b693-7b798a305e3c")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW55" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe157ccb-4842-4570-b027-5be668e67cca)
@@ -1747,7 +1747,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/d4a60661-06bb-4082-9e62-6098cd42b583")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW43" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e2f69ac7-3b2e-497f-b26e-20e01e56bf70)
@@ -1794,7 +1794,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/03a172b7-2580-4440-97db-d452418ce201")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW4" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d5f090d5-ba14-46d9-bf0b-a69f36db0120)
@@ -1841,7 +1841,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/23992400-9279-43cc-81c1-4d98b99b8376")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW24" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0e53198-e1c2-4fc0-b022-b93fca5258ce)
@@ -1888,7 +1888,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/883c615d-053a-414d-8f27-e403496b06b6")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW46" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a911f057-43d5-4a73-8639-63ad2deaad45)
@@ -1935,7 +1935,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/08895a48-0065-4a25-8509-ecdb6c5ef0c9")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW19" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8c88a71e-2bf5-4130-b74f-671075d38960)
@@ -1982,7 +1982,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/d601eb03-6a0c-4ee8-9169-c64b7e3c0c31")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW59" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3034a8be-7a34-4201-95ab-6aa276fdc4e7)
@@ -2029,7 +2029,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/91044d43-115c-4cb2-a723-bf0816000729")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW15" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21f39168-d28e-4b5d-8218-0ce9b772e210)
@@ -2076,7 +2076,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/aa8545d1-11f4-4bd5-8e28-b15a4ac23484")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW9" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 691a69a8-0ad0-4354-8dab-2e1ee495a4cd)
@@ -2123,7 +2123,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/633e9136-bba6-432d-8bd3-e340ce7ec722")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW22" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 806a4d0f-c875-446d-9e41-cb9827cf0629)
@@ -2170,7 +2170,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/66e7eaad-04c2-4f51-b211-f28f431c5fe4")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW12" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 421ddf16-b1bc-407b-aff3-dc594ad66bd2)
@@ -2217,7 +2217,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/88b03f76-bdd2-4613-88a7-8a2421689e31")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW5" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 817bcfeb-d071-4bd9-b763-a823d198a71d)
@@ -2264,7 +2264,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/f5b9ee27-077e-420c-9400-8c6c66d4ded2")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW34" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3951b74-3304-4709-854f-0bacffe4d351)
@@ -2311,7 +2311,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/14dfbf3d-9953-477e-92e4-456320aeb51f")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW35" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f6ebe2dd-d59b-41f7-a3cb-be3749caa61f)
@@ -2360,7 +2360,7 @@
     (property "ki_description" "KiKit tab annotations")
     (property "ki_keywords" "KiKit")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/42b5d825-ce40-4aac-9f49-2fb3e61d71ce")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "T1" (at 0 -2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e2afe065-35d5-4d05-b234-3653172ae700)
@@ -2391,7 +2391,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/32f86cea-743b-4dd4-9503-967482a2aae0")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW13" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c60ae36f-9cdf-4540-84d0-93a149b10596)
@@ -2438,7 +2438,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/4fc1d54b-8648-41a2-b4c0-eaeb7726d248")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW28" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a820fd3a-abd9-4d6c-9177-7dc5918c10d6)
@@ -2485,7 +2485,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/8d8c2571-9416-42fa-997a-94dd5ec846f6")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW54" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a282c813-191a-4871-ac6c-8d61677c23b8)
@@ -2532,7 +2532,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/612221f7-45d8-4af0-8973-395190d00cb8")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW39" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19059ce9-1764-4802-a59a-db77bb8e2939)
@@ -2579,7 +2579,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/30656c1b-a1d0-476a-b883-66af3f399ff0")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW21" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp faf72792-a0a6-4c8d-a154-15eb634cdc25)
@@ -2626,7 +2626,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/5746e4d8-1656-4884-b8fd-41b1b9beab53")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW56" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 13ee29b5-5ac6-4289-99f8-f48b8e701ffe)
@@ -2673,7 +2673,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/e48532cd-8cad-4db2-90a8-ac357cfb6d7a")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW44" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc7128cf-d381-43f5-a7f1-d5ca45811dc5)
@@ -2720,7 +2720,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/0e5d25b7-074d-4faf-8b9d-8798a9fed55a")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW58" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e708b62a-51c8-4214-95ea-b115e19e58e1)
@@ -2767,7 +2767,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/3f7fbb2d-fa1c-4675-8437-2dc78410d5f9")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW18" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0db13ac2-fb02-4a9b-89d4-e60478b3f73a)
@@ -2814,7 +2814,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/e80a117a-a08d-4b8c-a07c-acfa439234a1")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW52" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad5436cb-fa81-4c22-b5dd-8dfd98565717)
@@ -2861,7 +2861,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/8d9190e7-dd55-421c-a0c4-7c542f892da8")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW40" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b595d15-5326-4d94-b1c9-84fe7c8b158d)
@@ -2908,7 +2908,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/0d04401d-0455-4527-b2e7-1701fac18a79")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW2" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp edb265bc-2d10-4843-8dee-8e389e185aef)
@@ -2955,7 +2955,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/3cb34e2f-2074-4bc4-a1b8-5d612ecdc193")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW30" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d5c05824-1ce4-46cf-a4e0-f6ecb97de625)
@@ -3002,7 +3002,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/52e8b9e6-b756-4e85-b358-9a4bf1ad1b36")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW26" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a711ef34-4a3b-466d-9071-bb9b6e4cc4a3)
@@ -3049,7 +3049,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/0a2dac8f-ee3d-40b9-bdc6-723117e618a6")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW17" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6cf4487-254a-4129-bb3a-bfa70a969e31)
@@ -3096,7 +3096,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/7abe7c2e-4f97-42ea-986b-8d767658079a")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW29" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b6eb5845-922b-4ef8-94e2-4013aaf1cfd6)
@@ -3143,7 +3143,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2809b42f-6b40-4f20-9f56-56e870a192dd/d07ae564-620d-4fd1-97d7-f4b675891ac2")
-    (attr smd)
+    (attr smd board_only)
     (fp_text reference "SW45" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 292f7048-c1fe-4a67-85ee-a5d91fa1b487)
@@ -3194,7 +3194,7 @@
     (property "ki_description" "USB 2.0-only 16P Type-C Receptacle connector")
     (property "ki_keywords" "usb universal serial bus type-C USB2.0")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/cb09fc38-0f70-4651-ab91-66b51d6dd66f")
-    (attr smd board_only)
+    (attr smd board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J4" (at 0 5.645 180) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5ed9e364-7a3c-4f14-aed6-e0f2f6759404)
@@ -3244,7 +3244,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/84439960-d18c-4c3d-bd63-13d02ad6ae0d")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H6" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3b0ce458-2553-4352-8b8f-549fae17e0f4)
@@ -3274,7 +3274,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/0583953f-8f05-410f-831c-05a281962aa1")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f463ee85-5cbf-4105-9261-0cb1c7e27d28)
@@ -3304,7 +3304,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/5892ad8d-9f37-4807-887f-8aa54a2084c3")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H8" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d4a6bc11-3694-4152-b6f8-aff3191e56c4)
@@ -3334,7 +3334,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/bd3e8be2-882d-4fc4-8ab5-e4ec70f03c44")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H4" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e71b7722-5c58-4110-aba2-3c4896924bd8)
@@ -3366,7 +3366,7 @@
     (property "ki_description" "USB 2.0-only 16P Type-C Receptacle connector")
     (property "ki_keywords" "usb universal serial bus type-C USB2.0")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/9bef24ac-0ccf-4145-be51-c7e5ca2ecc50")
-    (attr smd board_only)
+    (attr smd board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 0 5.645 180) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6c09a0ec-7158-4672-9a21-8d0e160fdf36)
@@ -3416,7 +3416,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/003ed77a-c948-441c-b633-498f70c0fbd9")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H5" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8abb655c-cc4a-4f40-9fa8-84aa7440078b)
@@ -3446,7 +3446,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/ad7c5d6e-b70a-47f6-8781-c166dd1fb0d2")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H9" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 48448951-f754-4be6-9a50-f0ff3f233163)
@@ -3476,7 +3476,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/4fcc93bc-4540-43cd-a363-31b4d2bf1b3c")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e5afcbb4-12dd-40e1-a897-516403df7fca)
@@ -3506,7 +3506,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/4d782d13-6f5a-47e2-b863-fdc6ae2a9e1d")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H10" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f2662c06-4992-4e78-ba52-b9779653ce86)
@@ -3536,7 +3536,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/9b5d010c-c128-4221-9df0-679e0e88f90c/44a6522c-6753-491d-b711-61b022d3bd58")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H7" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a8c84b94-2422-4557-b2d3-e62b4589b4b8)
@@ -3566,7 +3566,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/ee6749c5-8347-4034-bc31-139d7c495021/fd24bbe6-7e8a-463e-9738-89ef4f5e3765")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H3" (at 0 3.2) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5442df26-7855-414a-b804-38065d3e3fcf)
