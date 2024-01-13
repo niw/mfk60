@@ -5,9 +5,7 @@
         "space": "2mm"
     },
     "tabs": {
-        "type": "annotation",
-        "width": "6mm",
-        "space": "2mm"
+        "type": "annotation"
     },
     "cuts": {
         "type": "mousebites",
@@ -23,7 +21,7 @@
     },
     "post": {
         "type": "auto",
-        "millradius": "1mm",
+        "millradiusouter": "1mm",
         "copperfill": false
     }
 }
