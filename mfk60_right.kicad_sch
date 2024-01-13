@@ -1894,10 +1894,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SPLIT_HAND" (shape input) (at 248.92 96.52 0) (fields_autoplaced)
+  (global_label "R_SPLIT_HAND" (shape input) (at 248.92 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6ddc2f43-03b8-493f-9099-ebb98401f029)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 262.9724 96.52 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 265.21 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1950,10 +1950,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SPLIT_HAND" (shape input) (at 143.51 128.27 0) (fields_autoplaced)
+  (global_label "R_SPLIT_HAND" (shape input) (at 143.51 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d8db05d4-c017-4a60-89f5-80c48b0a8c3d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.5624 128.27 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 159.8 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2524,7 +2524,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 604a479d-8c27-48cf-baaf-b667ef8c5cd5)
-    (property "Reference" "R13" (at 140.97 134.62 0)
+    (property "Reference" "R12" (at 140.97 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 140.97 137.16 0)
@@ -2544,7 +2544,7 @@
     (instances
       (project "mfk60"
         (path "/5884af6c-f4a4-4f6a-8d5a-73da30f3acf7/9b5d010c-c128-4221-9df0-679e0e88f90c"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3192,7 +3192,7 @@
       )
       (project "mfk60"
         (path "/5884af6c-f4a4-4f6a-8d5a-73da30f3acf7/9b5d010c-c128-4221-9df0-679e0e88f90c"
-          (reference "R7") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3251,7 +3251,7 @@
       )
       (project "mfk60"
         (path "/5884af6c-f4a4-4f6a-8d5a-73da30f3acf7/9b5d010c-c128-4221-9df0-679e0e88f90c"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
