@@ -24,10 +24,11 @@ plate_board = pcbnew.LoadBoard(plate_path) if os.path.exists(plate_path) else pc
 if args.update_board_shape:
     for drawing in plate_board.GetDrawings():
         if drawing.GetClass() == "PCB_SHAPE":
-            plate_board.RemoveNative(drawing)
+            plate_board.Delete(drawing)
     for drawing in board.GetDrawings():
         if drawing.GetClass() == "PCB_SHAPE":
-            plate_board.AddNative(drawing)
+            cloned_drawing = drawing.Duplicate()
+            plate_board.Add(cloned_drawing)
 
 def find_text(board, string):
     for drawing in board.GetDrawings():
@@ -43,7 +44,8 @@ if jlc_text:
     existing_jlc_text = find_text(plate_board, jlc_string)
     if existing_jlc_text is None:
         if args.add_footprint:
-            plate_board.AddNative(jlc_text)
+            cloned_jlc_text = jlc_text.Duplicate()
+            plate_board.Add(cloned_jlc_text)
     else:
         if args.update_position:
             position = jlc_text.GetPosition()
@@ -57,7 +59,11 @@ for footprint in board.GetFootprints():
         existing_footprint = plate_board.FindFootprintByReference(reference)
         if existing_footprint is None:
             if args.add_footprint:
-                plate_board.AddNative(footprint)
+                cloned_footprint = footprint.Duplicate()
+                pads = list(cloned_footprint.Pads())
+                for pad in pads:
+                    pad.SetNetCode(0)
+                plate_board.Add(cloned_footprint)
         else:
             if args.update_position:
                 position = footprint.GetPosition()
