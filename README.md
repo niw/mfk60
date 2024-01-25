@@ -57,9 +57,14 @@ The board and tooling scripts are implemented by using
 
 Please use KiCad 7.0.10 (or later, which is not tested.)
 
-It should work on the other platform, however, you may need to rewrite
-path to where KiCard `python` exists in `bin/venv.sh` if it's not macOS
-or KiCad is installed on the different path.
+It should work on the other platform, however, you may need to use
+`KICAD_PYTHON_PATH` to set where KiCad `python` exists
+if it's not macOS or KiCad is installed on the different path
+as like following.
+
+```bash
+env KICAD_PYTHON_PATH=/path/to/kicad/python bin/python.sh bin/update_plate_board.py
+```
 
 Each board is using symbols and footprints served from
 [KiKit](https://github.com/yaqwsx/KiKit), which is referenced from
@@ -87,7 +92,7 @@ To sync Edge Cut and footprint positioning between the primary PCB and
 the layered boards, use `bin/update_plate_board.py` with `bin/python.sh`.
 
 ```bash
-$ bin/python.sh bin/update_plate_board.py
+bin/python.sh bin/update_plate_board.py
 ```
 
 ### Add frame and panelize
