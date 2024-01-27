@@ -137,3 +137,22 @@ is represented as multiple polygons.
 However, original KiKit is not considering such multi polygon design and
 failed to extract interior polygons which causes an error while
 panelizing such data.
+
+
+Firmware
+--------
+
+Use [forked QMK branch](https://github.com/niw/qmk_firmware/tree/mfk)
+where contains the keyboard configuration.
+
+```bash
+qmk compile -kb niw/mfk60 -km default
+```
+
+It also works with VIA. Use `via` keymap and load
+[`via.json`](https://github.com/niw/qmk_firmware/blob/mfk/keyboards/niw/mfk60/via.json)
+for a draft definition in design tab enabled in settings.
+
+```bash
+qmk compile -kb niw/mfk60 -km via
+```
