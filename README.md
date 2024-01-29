@@ -34,6 +34,15 @@ Each layer board design contains both left and right designs.
   [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/).
 
 
+Photos
+------
+
+![mfk60 1](Resources/mfk60-1.jpg)
+![mfk60 2](Resources/mfk60-2.jpg)
+![mfk60 3](Resources/mfk60-3.jpg)
+![mfk60 4](Resources/mfk60-4.jpg)
+
+
 Build
 -----
 
